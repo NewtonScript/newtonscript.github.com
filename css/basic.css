@@ -1,18 +1,48 @@
+@import url('../css/advanced.css');
+@import url('../css/hashgrid.css');
+
 body {
     font-family: Verdana, Arial, sans-serif;
     padding: 1em;
-    line-height: 1.5em;
+    line-height: 1.5em; /* 24px @ 16px */
+}
+a:link {
+	color: #1B1BB3;
+}
+a:visited {
+	color: #7373D9;
+}
+a:link:hover, a:visited:hover, a:active:hover {
+	color: #FFBF00;
+}
+p, dt, dd {
+	margin-top: 1.5em; /* 24px @ 16px */
+	margin-bottom: 1.5em;
+	padding: 0 1.5em; 
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Gill Sans", sans-serif;
     font-weight: normal;
+    color: #1B1BB3;
 }
 h1 {
-    background-color: #CCC;
+	font-size: 2em; /* 32px @ 16px */
+    line-height: 1.5em; /* 48px @ 32px */
     margin-top: 0;
-    line-height: 1.5em;
+    margin-bottom: 0.75em; /* 24px @ 32px */
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    background-color: #FFBF00;
 }
 h2, h3, h4, h5 {
-    background-color: #EEE;
+    background-color: #CCC;
     text-transform: uppercase;
+}
+h2 {
+	font-size: 1.5em; /* 24px @ 16px */
+	line-height: 2em; /* 48px @ 16px */
+	margin-top: 1em; /* 24px @ 24px */
+	margin-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
