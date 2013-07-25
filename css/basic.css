@@ -20,6 +20,9 @@ p, dt, dd {
 	margin-bottom: 1.5em;
 	padding: 0 1.5em; 
 }
+dd {
+	margin-left: 1.5em;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: "Gill Sans", sans-serif;
     font-weight: normal;
