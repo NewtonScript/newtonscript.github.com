@@ -12,7 +12,7 @@ WHAT YOU NEED
 You will need the following to contribute:
 
 * A [GithHub](http://github.com) account for submitting pull requests
-* A familiarity with HTML5
+* A familiarity with HTML5, CSS3 experience is a plus
 
 MAKING CHANGES
 --------------
@@ -21,7 +21,7 @@ You will need to do the following to make changes that are most likely to be
 accepted with little headache and back & forth:
 
 1. Fork the [newtonscript.github.com](https://github.com/NewtonScript/newtonscript.github.com) project on GitHub
-2. Create a topic branch from the `master` branch
+2. Create a topic branch (an appropriately named branch regarding the intended changes, e.g. "new-license", "style-overhaul", or "resonsive-design-fixes") from the `master` branch
 3. Make commits in logical units and with properly explanatory commit messages
 4. Preview your changes in an HTML5-capable web browser to ensure nothing broke and everything is rendering appropriately.
 
