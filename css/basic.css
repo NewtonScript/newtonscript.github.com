@@ -15,6 +15,12 @@ a:visited {
 a:link:hover, a:visited:hover, a:active:hover {
 	color: #FFBF00;
 }
+a:link img {
+	display: block;
+	float: left;
+	margin-top: -4px;
+	margin-right: 4px;
+}
 p, dt, dd {
 	margin-top: 1.5em; /* 24px @ 16px */
 	margin-bottom: 1.5em;
