@@ -2,11 +2,27 @@ body {
 	width: 54em; /* 864px @ 16px */
 	margin-left: auto;
 	margin-right: auto;
+    padding: 1em;
+}
+
+/* Mobile Portrait CSS */
+/* @media all and (max-device-width: 320px) and (orientation:portrait) */
+@media all and (max-width: 320px) {
+	body {
+		width: 20em; /* 320px @ 16px */
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 /* Mobile Landscape CSS */
-@media all and (max-device-width: 480px) and (orientation:portrait) {
+/* @media all and (max-device-width: 480px) and (orientation:landscape) */
+@media all and (min-width: 321px) and (max-width: 480px) {
 	body {
-		width: 22.375em; /* 358px @ 16px */
+		width: 30em; /* 480px @ 16px */
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
