@@ -26,7 +26,11 @@ p, dt, dd {
 	padding: 0 1.5em; 
 }
 dd {
+	border-bottom: 1px solid #DDD;
 	margin-left: 1.5em;
+}
+dd:last-child {
+	border-bottom: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Gill Sans", sans-serif;
@@ -43,8 +47,7 @@ h1 {
     background-color: #FFBF00;
 }
 h2, h3, h4, h5 {
-    background-color: #CCC;
-    text-transform: uppercase;
+    background-color: #DDD;
 }
 h2 {
 	font-size: 1.5em; /* 24px @ 16px */
