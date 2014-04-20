@@ -4,6 +4,32 @@ body {
 	margin-right: auto;
     padding: 1em;
 }
+.metadata {
+	margin-top: 2em; /* 24px @ 16px */
+	margin-bottom: 2em;
+	padding-left: 0;
+	list-style: none;
+	font-size: 0.75em; /* 12px @ 16px */
+}
+.metadata li {
+	display: block;
+	float: left;
+	padding-left: 0;
+	padding-right: 1em;
+	line-height: 2em; /* 24px @ 16px */
+}
+.metadata li:after {
+	content: "|";
+	/*color: #000;*/
+	padding-left: 1em;
+}
+.metadata li:last-child {
+	float: none;
+	padding-right: 0;
+}
+.metadata li:last-child:after {
+	content: "";
+}
 
 /* Mobile Portrait CSS */
 /* @media all and (max-device-width: 320px) and (orientation:portrait) */
@@ -13,6 +39,14 @@ body {
 		padding: 0;
 		margin-left: 0;
 		margin-right: 0;
+	}
+	.metadata li {
+		display: list-item;
+		float: none;
+	}
+	.metadata li:after {
+		content: "";
+		padding-left: 0;
 	}
 }
 
@@ -27,5 +61,13 @@ body {
 		padding: 0;
 		margin-left: 0;
 		margin-right: 0;
+	}
+	.metadata li {
+		display: list-item;
+		float: none;
+	}
+	.metadata li:after {
+		content: "";
+		padding-left: 0;
 	}
 }

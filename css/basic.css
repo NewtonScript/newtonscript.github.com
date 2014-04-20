@@ -28,6 +28,10 @@ p, dt, dd, ul {
 dd {
 	border-bottom: 1px solid #DDD;
 	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+dd > p {
+	padding: 0;
 }
 dd:last-child {
 	border-bottom: none;
@@ -57,4 +61,7 @@ h2 {
 	margin-bottom: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+.metadata li {
+	color: #999;
 }
