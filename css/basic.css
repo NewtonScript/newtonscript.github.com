@@ -64,3 +64,14 @@ h2 {
 .metadata li {
 	color: #999;
 }
+footer {
+	border-top: 5px solid #DDD;
+}
+footer p {
+	color: #999;
+	font-size: 0.75em; /* 12px @ 16px */
+	padding-top: 1.5em;
+	margin-left: 2.5em;
+}
+
+
