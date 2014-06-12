@@ -5,9 +5,4 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 You can also request a copy of this license by sending a letter to:
 
-Creative Commons
-444 Castro Street
-Suite 900
-Mountain View, CA
-94041
-USA
+Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA
