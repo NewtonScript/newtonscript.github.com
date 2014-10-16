@@ -18,8 +18,9 @@ Follow these steps when making changes. That way, they will most likely be accep
 
 1. Fork the [newtonscript.github.com](https://github.com/NewtonScript/newtonscript.github.com) project on GitHub.
 2. Create a topic branch from the `master` branch. Name your branch appropriately, reflecting the intended changes. (e.g. “new-license”, “style-overhaul”, or “responsive-design-fixes”)
-3. Make commits in logical units and with explanatory commit messages.
-4. Preview your changes in an HTML5-capable web browser to ensure nothing is broken and everything is rendering correctly.
+3. Make your edits (please try to conform to our [style guide](#style-guide)).
+4. Make commits in logical units and with explanatory commit messages.
+5. Preview your changes in an HTML5-capable web browser to ensure nothing is broken and everything is rendering correctly.
 
 SUBMITTING CHANGES
 ------------------
@@ -32,3 +33,33 @@ When you’ve completed your changes and are ready to merge them into the main p
 That’s all there is to it.
 
 If you followed the “Making Changes” guidelines and the changes are aligned with the vision of the project, it should be a smooth process to merged them.
+
+<a name="style-guide"></a>STYLE GUIDE
+-----------
+
+## HTML
+
+* Please write well-formed HTML to the HTML5 specification.
+* Please write pretty HTML with proper indentation for nested elements.
+* Please use tabs instead of spaces for indentation.
+
+## Text
+
+* Please alphabetize referenced materials (software, source code, reference documentation, etc.) by title and authors by last name.
+* For sub lists which are more appropriately listed in chronological order (e.g. lists of publication issues), please do so.
+* Please use [serial commas](https://en.wikipedia.org/wiki/Serial_comma).
+
+## Resource Template
+
+The following is the template used to list referenced resources (software, source code, documentation, etc.):
+
+	<dt id="[RESOURCE-ANCHOR]"><a href="[RESOURCE URL]">[RESOURCE TITLE/NAME]</a></dt>
+	<dd>
+		<p>[RESOURCE DESCRIPTION]</p>
+		<ul class="metadata">
+			<li>Author: <a href="[AUTHOR/ORGANIZATION URL]">[AUTHOR/ORGANIZATION URL]</a></li>
+			<li>Platform: [PLATFORM]</li>
+			<li>License: ["Freeware"/"Shareware"/"Commercial"/"Open Source"]</li>
+		</ul>
+	</dd>
+
