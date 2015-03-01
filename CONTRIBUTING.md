@@ -3,6 +3,8 @@ CONTRIBUTING TO NewtonScript.org
 
 We welcome feedback, bug fixes, content & display improvements, and translations. Ultimately, what gets accepted and merged into the project is up to NewtonScript.org staff (specifically, [Morgan Aldridge](https://github.com/morgant), the current project maintainer), but you are encouraged to submit any suggestions.
 
+Please submit errors/corrections, additions, and feature requests via [the newtonscript.github.com GitHub project's issue tracker](https://github.com/NewtonScript/newtonscript.github.com/issues).
+
 WHAT YOU NEED
 -------------
 
@@ -57,9 +59,35 @@ The following is the template used to list referenced resources (software, sourc
 	<dd>
 		<p>[RESOURCE DESCRIPTION]</p>
 		<ul class="metadata">
-			<li>Author: <a href="[AUTHOR/ORGANIZATION URL]">[AUTHOR/ORGANIZATION URL]</a></li>
+			<li>Author: <a href="[AUTHOR/ORGANIZATION URL]">[AUTHOR/ORGANIZATION NAME]</a></li>
 			<li>Platform: [PLATFORM]</li>
 			<li>License: ["Freeware"/"Shareware"/"Commercial"/"Open Source"]</li>
+			<li>Format: ["TXT"/"HTML"/"PDF"/"Book"/"Magazine"/"Video"]</li>
+			<li>Mirror: <a href="[MIRROR URL]">[MIRROR TITLE/NAME]</a></li>
 		</ul>
 	</dd>
+
+Please reference the following descriptions of the fields from the above template, as well as existing examples on the site, when adding a referenced resource:
+
+RESOURCE-ANCHOR: (Optional) A unique HTML anchor for the reference if it'll be frequently linked to.
+
+RESOURCE URL: The URL for the referenced resource.
+
+RESOURCE TITLE/NAME: The title or name of the referenced resource. This should be in proper title case, with the exception of software/source code where the project's name itself may not be in proper title case. A common abbreviation for the resource title (e.g. "NTK") may optionally be included).
+
+RESOURCE DESCRIPTION: A short, one to three sentence summary of the resource. For software, this should include its functionality and how NewtonScript comes into play. For reference material, it should describe what the documentation covers. For periodicals as a whole where individual issues or articles may also be available, it is suggested that those issues/articles be linked to in a list following this section.
+
+AUTHOR/ORGANIZATION URL: (Optional) The URL to the author or organization.
+
+AUTHOR/ORGANIZATION NAME: The name of the person or organization that created or published the resource. Multiple names should be comma separated and placed in alphabetical order by last name. It is prefferable to always list all the authors or the specific organization, but in rare cases it may be appropriate to use "Various" instead.
+
+PLATFORM: (Optional, but should be included for software & source code) The name of the platform which the resource was developed for. If multiple platforms are supported, they should be comma separated and in alphabetcal order. For non-Newton platforms, the general platform type is suggested (e.g. "Mac OS", "Mac OS X", "Windows", "Linux", "BSD", "BeOS", etc.), but for Newton platforms, the specific Newton OS version should be included (e.g. "NewtonOS 1.x", "NewtonOS 2.x", "NewtonOS 2.1", etc.)
+
+LICENSE: (Optional, but should be included for software & source code).
+
+FORMAT: (Optional, but should be included for documentation) The format which the documentation is available in. If multiple formats are available, they should be comma separated and can optionslly link directly to the specified format.
+
+MIRROR URL: (Optional, but should be included whenever available) The URL for an alternate source for the resource.
+
+MIRROR TITLE/NAME: (Optional, but should be included whenever available) The nsme of an alternate source for the resource.
 
