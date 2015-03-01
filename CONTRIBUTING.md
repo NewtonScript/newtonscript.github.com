@@ -67,6 +67,8 @@ The following is the template used to list referenced resources (software, sourc
 		</ul>
 	</dd>
 
+IMPORTANT: Whenever you link to a resource or its mirror, please visit http://archive.org/web/ and submit that URL to "Save Page Now" to ensure its preservation!
+
 Please reference the following descriptions of the fields from the above template, as well as existing examples on the site, when adding a referenced resource:
 
 RESOURCE-ANCHOR: (Optional) A unique HTML anchor for the reference if it'll be frequently linked to.
