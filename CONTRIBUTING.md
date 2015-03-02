@@ -1,20 +1,17 @@
-CONTRIBUTING TO NewtonScript.org
-================================
+# Contributing to NewtonScript.org
 
 We welcome feedback, bug fixes, content & display improvements, and translations. Ultimately, what gets accepted and merged into the project is up to NewtonScript.org staff (specifically, [Morgan Aldridge](https://github.com/morgant), the current project maintainer), but you are encouraged to submit any suggestions.
 
 Please submit errors/corrections, additions, and feature requests via [the newtonscript.github.com GitHub project's issue tracker](https://github.com/NewtonScript/newtonscript.github.com/issues).
 
-WHAT YOU NEED
--------------
+## What You Need
 
 You will need the following to contribute:
 
 * A [GitHub](http://github.com) account for submitting pull requests
 * A familiarity with HTML5, CSS3 experience is a plus
 
-MAKING CHANGES
---------------
+## Making Changes
 
 Follow these steps when making changes. That way, they will most likely be accepted with few headaches and very little back and forth.
 
@@ -24,8 +21,7 @@ Follow these steps when making changes. That way, they will most likely be accep
 4. Make commits in logical units and with explanatory commit messages.
 5. Preview your changes in an HTML5-capable web browser to ensure nothing is broken and everything is rendering correctly.
 
-SUBMITTING CHANGES
-------------------
+## Submitting Changes
 
 When you’ve completed your changes and are ready to merge them into the main project, follow these steps to submit them for review.
 
@@ -36,22 +32,21 @@ That’s all there is to it.
 
 If you followed the “Making Changes” guidelines and the changes are aligned with the vision of the project, it should be a smooth process to merged them.
 
-<a name="style-guide"></a>STYLE GUIDE
------------
+## Style Guide
 
-## HTML
+### HTML
 
 * Please write well-formed HTML to the HTML5 specification.
 * Please write pretty HTML with proper indentation for nested elements.
 * Please use tabs instead of spaces for indentation.
 
-## Text
+### Text
 
 * Please alphabetize referenced materials (software, source code, reference documentation, etc.) by title and authors by last name.
 * For sub lists which are more appropriately listed in chronological order (e.g. lists of publication issues), please do so.
 * Please use [serial commas](https://en.wikipedia.org/wiki/Serial_comma).
 
-## Resource Template
+### Resource Template
 
 The following is the template used to list referenced resources (software, source code, documentation, etc.):
 
