@@ -2,7 +2,7 @@
 
 We welcome feedback, bug fixes, content & display improvements, and translations. Ultimately, what gets accepted and merged into the project is up to NewtonScript.org staff (specifically, [Morgan Aldridge](https://github.com/morgant), the current project maintainer), but you are encouraged to submit any suggestions.
 
-Please submit errors/corrections, additions, and feature requests via [the newtonscript.github.com GitHub project's issue tracker](https://github.com/NewtonScript/newtonscript.github.com/issues).
+Please submit errors/corrections, additions, and feature requests via the project’s [issue tracker](https://github.com/NewtonScript/newtonscript.github.com/issues).
 
 ## What You Need
 
@@ -25,7 +25,7 @@ Follow these steps when making changes. That way, they will most likely be accep
 
 When you’ve completed your changes and are ready to merge them into the main project, follow these steps to submit them for review.
 
-1. Push the changes to your fork of the newtonscript.github.com project on GitHub
+1. Push the changes to your fork of the [newtonscript.github.com](https://github.com/NewtonScript/newtonscript.github.com) project on GitHub
 2. Submit a pull request to the [newtonscript.github.com](https://github.com/NewtonScript/newtonscript.github.com) project
 
 That’s all there is to it.
@@ -62,7 +62,7 @@ The following is the template used to list referenced resources (software, sourc
 		</ul>
 	</dd>
 
-IMPORTANT: Whenever you link to a resource or its mirror, please visit http://archive.org/web/ and submit that URL to "Save Page Now" to ensure its preservation!
+**Important:** Whenever you link to a resource or its mirror, please visit the [Internet Archive Wayback Machine](http://archive.org/web/) and submit that URL to “Save Page Now” to ensure its preservation!
 
 Please reference the following descriptions of the fields from the above template, as well as existing examples on the site, when adding a referenced resource:
 
