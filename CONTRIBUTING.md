@@ -9,7 +9,8 @@ Please submit errors/corrections, additions, and feature requests via the projec
 You will need the following to contribute:
 
 * A [GitHub](http://github.com) account for submitting pull requests
-* A familiarity with HTML5, CSS3 experience is a plus
+* A familiarity with HTML5
+* Experience with CSS3 is a plus
 
 ## Making Changes
 
@@ -30,7 +31,7 @@ When you’ve completed your changes and are ready to merge them into the main p
 
 That’s all there is to it.
 
-If you followed the “Making Changes” guidelines and the changes are aligned with the vision of the project, it should be a smooth process to merged them.
+If you followed the “Making Changes” guidelines and the changes are aligned with the vision of the project, it should be a smooth process to merge them.
 
 ## Style Guide
 
@@ -50,41 +51,43 @@ If you followed the “Making Changes” guidelines and the changes are aligned 
 
 The following is the template used to list referenced resources (software, source code, documentation, etc.):
 
-	<dt id="[RESOURCE-ANCHOR]"><a href="[RESOURCE URL]">[RESOURCE TITLE/NAME]</a></dt>
-	<dd>
-		<p>[RESOURCE DESCRIPTION]</p>
-		<ul class="metadata">
-			<li>Author: <a href="[AUTHOR/ORGANIZATION URL]">[AUTHOR/ORGANIZATION NAME]</a></li>
-			<li>Platform: [PLATFORM]</li>
-			<li>License: ["Freeware"/"Shareware"/"Commercial"/"Open Source"]</li>
-			<li>Format: ["TXT"/"HTML"/"PDF"/"Book"/"Magazine"/"Video"]</li>
-			<li>Mirror: <a href="[MIRROR URL]">[MIRROR TITLE/NAME]</a></li>
-		</ul>
-	</dd>
+```html
+<dt id="[RESOURCE-ANCHOR]"><a href="[RESOURCE URL]">[RESOURCE TITLE/NAME]</a></dt>
+<dd>
+	<p>[RESOURCE DESCRIPTION]</p>
+	<ul class="metadata">
+		<li>Author: <a href="[AUTHOR/ORGANIZATION URL]">[AUTHOR/ORGANIZATION NAME]</a></li>
+		<li>Platform: [PLATFORM]</li>
+		<li>License: [“Freeware”/”Shareware”/”Commercial”/”Open Source”]</li>
+		<li>Format: [“TXT”/”HTML”/”PDF”/”Book”/”Magazine”/”Video”]</li>
+		<li>Mirror: <a href="[MIRROR URL]">[MIRROR TITLE/NAME]</a></li>
+	</ul>
+</dd>
+```
 
 **Important:** Whenever you link to a resource or its mirror, please visit the [Internet Archive Wayback Machine](http://archive.org/web/) and submit that URL to “Save Page Now” to ensure its preservation!
 
 Please reference the following descriptions of the fields from the above template, as well as existing examples on the site, when adding a referenced resource:
 
-RESOURCE-ANCHOR: (Optional) A unique HTML anchor for the reference if it'll be frequently linked to.
+`RESOURCE-ANCHOR` — A unique anchor value for the reference. This accommodates direct linking to the reference. Optional.
 
-RESOURCE URL: The URL for the referenced resource.
+`RESOURCE URL` — The URL for the referenced resource.
 
-RESOURCE TITLE/NAME: The title or name of the referenced resource. This should be in proper title case, with the exception of software/source code where the project's name itself may not be in proper title case. A common abbreviation for the resource title (e.g. "NTK") may optionally be included).
+`RESOURCE TITLE/NAME` — The title or name of the referenced resource. This should be in proper title case, with the exception of software/source code where the project’s name itself may not be in proper title case. A common abbreviation for the resource title (e.g. “NTK”) may optionally be included).
 
-RESOURCE DESCRIPTION: A short, one to three sentence summary of the resource. For software, this should include its functionality and how NewtonScript comes into play. For reference material, it should describe what the documentation covers. For periodicals as a whole where individual issues or articles may also be available, it is suggested that those issues/articles be linked to in a list following this section.
+`RESOURCE DESCRIPTION` — A short summary (one to three sentences) of the resource. For software, this should include its functionality and how NewtonScript comes into play. For reference material, it should describe what the documentation covers. For periodicals as a whole where individual issues or articles may also be available, it is suggested that those issues or articles be listed and linked individually following this section.
 
-AUTHOR/ORGANIZATION URL: (Optional) The URL to the author or organization.
+`AUTHOR/ORGANIZATION URL` — The URL to the author’s or organization’s site. Optional.
 
-AUTHOR/ORGANIZATION NAME: The name of the person or organization that created or published the resource. Multiple names should be comma separated and placed in alphabetical order by last name. It is prefferable to always list all the authors or the specific organization, but in rare cases it may be appropriate to use "Various" instead.
+`AUTHOR/ORGANIZATION NAME` — The name of the person or organization that created or published the resource. Multiple names should be comma separated and placed in alphabetical order by last name. It is preferable to list all authors or the specific organization. In rare cases, it may be appropriate to use “Various” instead.
 
-PLATFORM: (Optional, but should be included for software & source code) The name of the platform which the resource was developed for. If multiple platforms are supported, they should be comma separated and in alphabetcal order. For non-Newton platforms, the general platform type is suggested (e.g. "Mac OS", "Mac OS X", "Windows", "Linux", "BSD", "BeOS", etc.), but for Newton platforms, the specific Newton OS version should be included (e.g. "NewtonOS 1.x", "NewtonOS 2.x", "NewtonOS 2.1", etc.)
+`PLATFORM` — The name of the platform which the resource was developed for. If multiple platforms are supported, they should be comma separated and in alphabetical order. For non-Newton platforms, the general platform type is suggested (e.g. “Mac OS”, “Mac OS X”, “Windows”, “Linux”, “BSD”, “BeOS”, etc.). For Newton platforms, the specific Newton OS version should be included (e.g. “Newton OS 1.x”, “Newton OS 2.x”, “Newton OS 2.1”, etc.) Optional, but should be included for software and source code. 
 
-LICENSE: (Optional, but should be included for software & source code).
+`LICENSE` — Optional, but should be included for software and source code.
 
-FORMAT: (Optional, but should be included for documentation) The format which the documentation is available in. If multiple formats are available, they should be comma separated and can optionslly link directly to the specified format.
+`FORMAT` — The format which the documentation is available in. If multiple formats are available, they should be comma separated and may link directly to the specified format. Optional, but should be included for documentation.
 
-MIRROR URL: (Optional, but should be included whenever available) The URL for an alternate source for the resource.
+`MIRROR URL` — The URL of an alternate source for the resource. Optional, but should be included whenever available.
 
-MIRROR TITLE/NAME: (Optional, but should be included whenever available) The nsme of an alternate source for the resource.
+`MIRROR TITLE/NAME` The name of an alternate source for the resource. Optional, but should be included whenever available.
 
