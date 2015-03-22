@@ -1,5 +1,4 @@
-NewtonScript.org
-================
+# NewtonScript.org
 
 This is the repository for the [NewtonScript.org](http://newtonscript.org/) site.
 
