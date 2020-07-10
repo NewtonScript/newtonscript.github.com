@@ -31,6 +31,32 @@ body {
 	content: "";
 }
 
+/* Dark Mode CSS */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222;
+		color: #ddd;
+	}
+	body dd {
+		border-bottom-color: #333;
+	}
+	body a:link {
+		color: #7373D9;
+	}
+	body a:visited {
+		color: #9191B3;
+	}
+	body h2,
+	body h3,
+	body h4,
+	body h5 {
+		background-color: #999;
+	}
+	body footer {
+		border-top-color: #333;
+	}
+}
+
 /* Mobile Portrait CSS */
 /* @media all and (max-device-width: 320px) and (orientation:portrait) */
 @media all and (max-width: 320px) {
