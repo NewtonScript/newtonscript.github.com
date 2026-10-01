@@ -25,7 +25,7 @@
 	</head>
 	<body>
 		<h1>NewtonScript</h1>
-		<p><em>NewtonScript</em> is an object-oriented programming language developed by <a href="http://waltersmith.us/">Walter Smith</a> for <a href="http://www.apple.com/">Apple</a> for the Newton OS running on their MessagePad &amp; eMate hardware. It borrows concepts from the Smalltalk, LISP, and Self programming languages with special consideration for a low memory footprint (esp. differential inheritance). In 2003 a NewtonScript interpreter, <a href="#newt0">NEWT/0</a> was developed by Makoto Nukui allowing for its use on other platforms.</p>
+		<p><em>NewtonScript</em> is an object-oriented programming language developed by <a href="http://waltersmith.us/">Walter Smith</a> for <a href="http://www.apple.com/">Apple</a> for the Newton OS running on their MessagePad &amp; eMate hardware. It borrows concepts from the Smalltalk, LISP, and Self programming languages with special consideration for a low memory footprint (esp. differential inheritance). In 2003, Makoto Nukui developed <a href="#newt0">NEWT/0</a>, a NewtonScript interpreter for use on other platforms. Matthias Melcher took that one step further with <a href="#newt64">NEWT/64</a>, a 64-bit variation of NEWT/0.</p>
 		<p>For assistance with programming in the NewtonScript language beyond the documentation provided here, it is suggested that you join the <a href="http://newtonscript-lang.slack.com/">newtonscript-lang.slack.com</a> Slack team (<a href="https://join.slack.com/t/newtonscript-lang/shared_invite/zt-f9oph15v-kNRi~jchTvRM9CLnz1eyfA">get an invite</a>), join the <a href="irc://irc.libera.chat/newtonscript">#newtonscript channel on irc.libera.chat</a>, tag a question with the <a href="http://stackoverflow.com/questions/tagged/newtonscript">'newtonscript' tag on stackoverflow.com</a>, or post to the <a href="http://newtontalk.net/">NewtonTalk mailing list</a>.</p>
 		
 		<!-- BEGIN TABLE OF CONTENTS -->
@@ -83,7 +83,7 @@
 			
 			<dt id="newt0"><a href="http://gnue.github.io/NEWT0/">NEWT/0</a></dt>
 			<dd>
-				<p>A multi-platform NewtonScript interpreter. <a href="http://www.matthiasm.com/">Matthias Melcher</a> has also created a <a href="https://github.com/MatthiasWM/NEWT0">modified version of NEWT/0</a> that compiles on 64-bit architectures.</p>
+				<p>A multi-platform NewtonScript interpreter.</p>
 				<ul class="metadata">
 					<li>Author: <a href="http://so-kukan.com/gnue/">Makoto Nukui</a></li>
 					<li>Platform: Mac OS X, Linux, FreeBSD, Windows, BeOS</li>
@@ -91,6 +91,16 @@
 				</ul>
 			</dd>
 			
+			<dt id="newt64"><a href="https://github.com/MatthiasWM/NEWT64">NEWT/64</a></dt>
+			<dd>
+				<p>A multi-platform NewtonScript interpreter based on <a href="#newt0">NEWT/0</a> modified for 64-bit platforms.</p>
+				<ul class="metadata">
+					<li>Author: <a href="http://www.matthiasm.com/">Matthias Melcher</a></li>
+					<li>Platform: Mac OS X, Linux, FreeBSD, Windows, BeOS</li>
+					<li>License: Open Source</li>
+				</ul>
+			</dd>
+
 			<dt id="newtvim"><a href="http://www.vim.org/scripts/script.php?script_id=4589">newt.vim</a></dt>
 			<dd>
 				<p>A cross-platform <a href="http://www.vim.org/">Vim</a> syntax highlighter for the NewtonScript language.</p>
